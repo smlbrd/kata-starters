@@ -15,15 +15,25 @@ Each starter comes pre-configured with a working test suite and a simple example
 
 ## How to Use
 
-1. **Choose your language:** Navigate to the directory of your preferred language.
-2. **Run the existing tests:** Ensure the provided example passes.
-   - For Go: `go test ./...`
-   - For JavaScript: `npm test`
-   - (Check the individual `README.md` in each language folder for specific commands)
+1. **Choose your language** and `cd` into its directory.
+2. **Install dependencies** (if any) and **run the existing tests** to confirm the starter works, using the commands below.
 3. **Start your kata:**
    - Replace the example implementation with your actual logic.
    - Add new test cases to the existing test file or create a new one.
    - Run the tests frequently to follow the Red-Green-Refactor cycle.
+
+### Quick Reference
+
+| Language | Install | Run | Test |
+|---|---|---|---|
+| [Go](./go) | *(none needed)* | `go run main.go` | `go test ./...` |
+| [JavaScript](./javascript) | `npm install` | `npm start` | `npm test` |
+| [Python](./python) | `uv sync` | `uv run python main.py` | `uv run pytest` |
+| [Ruby](./ruby) | `bundle install` | `ruby main.rb` | `bundle exec rspec` |
+| [Rust](./rust) | *(none needed)* | `cargo run` | `cargo test` |
+| [TypeScript](./typescript) | `npm install` | `npm start` | `npm test` |
+
+Check the individual `README.md` in each language folder for prerequisites and more detail.
 
 ## Adding New Languages
 

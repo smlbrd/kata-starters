@@ -4,12 +4,14 @@ __pycache__/
 .venv/
 *.egg-info/
 .pytest_cache/
+uv.lock
 
 # --- Node (JavaScript / TypeScript) ---
 node_modules/
 dist/
 coverage/
 *.tsbuildinfo
+package-lock.json
 
 # --- Go ---
 /go/kata-starters-go
@@ -22,6 +24,7 @@ Cargo.lock
 # --- Ruby ---
 .bundle/
 vendor/bundle/
+Gemfile.lock
 
 # --- OS / editor cruft ---
 .DS_Store
