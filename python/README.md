@@ -3,36 +3,31 @@
 A minimal, self-contained Python setup with a working example (`sum_numbers`)
 and a passing test, ready for you to clear out and replace with your own kata.
 
-**Prerequisites:** Python 3 installed (`python3 --version` to check).
+**Prerequisites:** Python 3 and [uv](https://docs.astral.sh/uv/) installed (`uv --version` to check).
 
 ## Setup
 
 ```bash
-# 1. Create a virtual environment (keeps dependencies scoped to this folder)
-python3 -m venv .venv
-
-# 2. Activate it
-source .venv/bin/activate        # macOS/Linux
-.venv\Scripts\activate           # Windows
-
-# 3. Install dependencies
-pip install -r requirements.txt
+uv sync
 ```
+
+This creates a `.venv` and installs dependencies (pytest) automatically — no
+separate virtual environment or `pip install` steps needed.
 
 ## Run
 
 ```bash
-python main.py
+uv run python main.py
 ```
 
 ## Test
 
 ```bash
-pytest
+uv run pytest
 ```
 
 ## Files
 
 - `main.py` — entry point + `sum_numbers(a, b)` example function
 - `test_main.py` — pytest tests for `sum_numbers`
-- `requirements.txt` — dependencies (pytest)
+- `pyproject.toml` — project metadata + dependencies (pytest)

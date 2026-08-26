@@ -1,0 +1,9 @@
+[project]
+name = "python-kata-starter"
+version = "0.1.0"
+description = "Minimal Python kata starter with pytest"
+requires-python = ">=3.9"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8"]
