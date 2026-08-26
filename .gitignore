@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# --- Node (JavaScript / TypeScript) ---
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# --- Go ---
+/go/kata-starters-go
+*.test
+
+# --- Rust ---
+target/
+Cargo.lock
+
+# --- Ruby ---
+.bundle/
+vendor/bundle/
+
+# --- OS / editor cruft ---
+.DS_Store
+.vscode/
+.idea/

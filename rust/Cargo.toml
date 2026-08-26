@@ -1,0 +1,12 @@
+[package]
+name = "kata-starters-rust"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "kata_starters_rust"
+path = "src/lib.rs"
+
+[[bin]]
+name = "kata-starters-rust"
+path = "src/main.rs"
