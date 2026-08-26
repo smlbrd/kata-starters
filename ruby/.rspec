@@ -1,3 +1,4 @@
 --pattern "**/*_spec.rb"
+--exclude-pattern "vendor/**/*_spec.rb"
 --default-path .
 --color

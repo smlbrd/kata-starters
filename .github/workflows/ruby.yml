@@ -1,0 +1,31 @@
+name: Ruby
+
+on:
+  push:
+    paths:
+      - "ruby/**"
+      - ".github/workflows/ruby.yml"
+  pull_request:
+    paths:
+      - "ruby/**"
+      - ".github/workflows/ruby.yml"
+  workflow_dispatch: {}
+
+defaults:
+  run:
+    working-directory: ruby
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+          working-directory: ruby
+
+      - name: Test
+        run: bundle exec rspec
