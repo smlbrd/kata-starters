@@ -7,6 +7,7 @@ Each starter comes pre-configured with a working test suite and a simple example
 ## Supported Languages
 
 - [Go](./go)
+- [Java](./java)
 - [JavaScript](./javascript)
 - [Python](./python)
 - [Ruby](./ruby)
@@ -27,6 +28,7 @@ Each starter comes pre-configured with a working test suite and a simple example
 | Language | Install | Run | Test |
 |---|---|---|---|
 | [Go](./go) | *(none needed)* | `go run main.go` | `go test ./...` |
+| [Java](./java) | *(none needed)* | `java src/main/java/Main.java` | `mvn test` |
 | [JavaScript](./javascript) | `npm install` | `npm start` | `npm test` |
 | [Python](./python) | `uv sync` | `uv run python main.py` | `uv run pytest` |
 | [Ruby](./ruby) | `bundle install` | `ruby main.rb` | `bundle exec rspec` |
