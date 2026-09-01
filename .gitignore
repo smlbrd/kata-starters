@@ -12,6 +12,7 @@ dist/
 coverage/
 *.tsbuildinfo
 package-lock.json
+pnpm-lock.yaml
 
 # --- Go ---
 /go/kata-starters-go
