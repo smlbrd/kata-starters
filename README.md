@@ -29,11 +29,11 @@ Each starter comes pre-configured with a working test suite and a simple example
 |---|---|---|---|
 | [Go](./go) | *(none needed)* | `go run main.go` | `go test ./...` |
 | [Java](./java) | *(none needed)* | `java src/main/java/Main.java` | `mvn test` |
-| [JavaScript](./javascript) | `npm install` | `npm start` | `npm test` |
+| [JavaScript](./javascript) | `pnpm install` | `pnpm start` | `pnpm test` |
 | [Python](./python) | `uv sync` | `uv run python main.py` | `uv run pytest` |
 | [Ruby](./ruby) | `bundle install` | `ruby main.rb` | `bundle exec rspec` |
 | [Rust](./rust) | *(none needed)* | `cargo run` | `cargo test` |
-| [TypeScript](./typescript) | `npm install` | `npm start` | `npm test` |
+| [TypeScript](./typescript) | `pnpm install` | `pnpm start` | `pnpm test` |
 
 Check the individual `README.md` in each language folder for prerequisites and more detail.
 
