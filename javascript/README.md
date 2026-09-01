@@ -8,19 +8,19 @@ and a passing test, ready for you to clear out and replace with your own kata.
 ## Setup
 
 ```bash
-npm install
+pnpm install
 ```
 
 ## Run
 
 ```bash
-npm start
+pnpm start
 ```
 
 ## Test
 
 ```bash
-npm test
+pnpm test
 ```
 
 ## Files
